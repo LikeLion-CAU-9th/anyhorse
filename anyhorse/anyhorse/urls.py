@@ -9,6 +9,5 @@ urlpatterns = [
     path('', include('main.urls')),
     path('', include('community.urls')),
     path('', include('anyhorseTest.urls')),
-
 ]
 

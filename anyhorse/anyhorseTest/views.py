@@ -1,3 +1,6 @@
 from django.shortcuts import render
-
-# Create your views here.
+def anyhorseTest1(request):
+    return render(request, 'test.html')
+    
+def anyhorseTest2(request):
+    return render(request, 'result.html')

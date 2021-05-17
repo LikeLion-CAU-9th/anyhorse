@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def anyhorseTest(request):
+    return render(request, 'horseTest.html')
